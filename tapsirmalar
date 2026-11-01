@@ -1,0 +1,107 @@
+ #print and input Tapirma-1
+print('Men "IT" ha\'m "English" u\'yrenip atirman') 
+
+#tapsirma-2
+print("Jasim", 15 , "jasta Klasim", 9)
+
+#tapdirma-3
+print('Papa mag\'an', "Noutbook" , 'alip berdi')
+
+#tapsirma-4
+print(125+75 , "ha\'m" , 300-45)
+
+#tapsirma-5
+print(2**8 , 100%7 , "ha\'m" , 100//7)
+
+#tapsirma-6
+print(13*(2+1))
+
+#tapsirma-7
+print(200 , "almadan" , 200//13 , "oqiwshilar 13 almadan aladi")
+print(200 , "almadan" , 200%13 , "alma qaladi")
+
+#tapsirma-8
+print( 100 , "ku\'nde" , 100//30 , "ay" , 100%30 , "ku\'n bar")
+
+#tapsirma-9
+print("Klasin\'izda" , input("Klasta neshe oqiwshi bar?:"), "oqiwshi bar")
+
+#tapsirma-10
+print(input("Atin\' kim?:") , input("Jasin\' neshede?:") , "jasta")
+
+#print and input.Tapsirma-2
+#tapsirma-2
+print("540 g\'arbiz, ja\'mi" , 540//7 , "kg" , 540*1200 , "sum" )
+
+#tapsirma-3
+print(1365//12 , "quti toldi" , 1365%12 , "alma qaldi")
+
+#tapsirma-4
+print(input("Ne buyirtpa etemiz?:") , input("Neshewin alasiz?:") , input("Jetkerip beriw adresi?:"))
+
+#comments and error.
+#1$ = 12300 sum
+#6500000 sumdi dollarga aylandirdim
+print("'6500000' sum" , 6500000//12300 , "$ boladi!")
+
+#tapsirma-2
+#paydalaniwshidan qanday ren unawin soraw
+print( "Ren\'ler:" , input("Sizge qanday ren\' unaydi?Aq,Qara,Ko\'k:"))
+
+#tapsirma-3
+"""
+  Bunda "Ismingizni kiriting" 
+  teksti input() ishine jaziliwi 
+  kerek,input()tin ishi uliwma
+  bos qalmawi kerek.
+"""
+print(input("Ismingizni kirirting?:"))
+
+#tapsirma-5
+#qate turi:SyntaxError, sebebi tirnaqsha jabilmagan.Duris variant tomendegi;
+print("Assalomu alaykum! , 'Python' , darsiga xush kelibsiz!")
+
+#tapsirma-6
+#bunda print qawsirmasi jabilmagan.durii tomendegi;
+print("Sizning yoshingiz: " , input("Yoshingizni kiriting:"))
+
+#tapsirma-7
+#2-kod ta probel qoyilgani ushin qate.
+#duris variant tomendegi;
+print("Xush kelibiz!")
+print(input("Qaysi shaharda yashayiz?:"))
+
+#tapsirma-8
+"""
+   bunda tirnaqshada qate bar.Otgan kunlar teksti ('')usi 
+   tirnaqshaga qoyiliwi kerek ham backslash\ qoyiliwi kerek
+"""
+print('Mening sevimli kitobim "O\'tgan kunlar" romani')
+
+#tapsirma-9
+#2-kod ta print aldina probel qoyilmawi kerek
+#Ham 3-kod ta qawsirma jabilmagan.
+# Duris variant tomendegi;
+print("1-qadam: Tizimga kirish")
+print(input("parolni kiriting:"))
+print("2-qadam: Xush kelibsiz!")
+
+#Variables Tapsirma/
+alma_bahasi = 8000
+alma_sani = 4
+
+banan_bahasi = 12000
+banan_sani = 2
+
+jami_summa = alma_bahasi * alma_sani + banan_bahasi * banan_sani 
+print("Jami summa:" , jami_summa , "sum boldi")
+
+
+#tapsirma-2
+name = input("Atiniz kim?:")
+taraw = input("Qanday taraw?:")
+experince = input("Tajiriybeniz qansha?:")
+
+print("Ati:" , name)
+print("Tarawi:" , taraw)
+print("Tajiriybesi:" , experince)
