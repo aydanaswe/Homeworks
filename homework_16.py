@@ -147,8 +147,8 @@ print(cars)
 
 #tapsirma-22
 numbers = [10, 20, 30, 40, 50]
-ohirilgen = numbers.pop()
-print("Ochirilgan element:", ohirilgen)
+oshirilgen = numbers.pop()
+print("Ochirilgan element:", oshirilgen)
 print("Qolgan list:", numbers)
 
 #tapsirma-23
