@@ -94,28 +94,5 @@ for san in numbers:
     else:
         print(f"{san} - Toq son")
 
-#tapsirma-11
-numbers = [2, 5, 8, 11, 14, 17]
-for i in range(len(numbers)):
-    if numbers[i] < 10:
-       numbers[i] = numbers[i] * 2
-    else:
-        numbers[i] = numbers[i] + 5 
 
-print(numbers)
 
-#tapsirma-12
-products = ['Gosht', 'Non', 'Sut', 'Tuxum', 'guruch']
-prices = [90000, 4000, 12000, 1800, 15000]
-print("Mahsulotlar:")
-
-for i in range(len(products)):
-    print(f"{i+1}. {products[i] - {prices[i]}} som")
-
-choose = int(input("Qaysi mahsulot kerak?:"))
-quantity = int(input(f"{products[choose]} qancha kerak?"))
-total_sum = prices[choose] * quantity
-
-print(f"Mahsulot: {products[choose]}")
-print(f"Soni: {quantity}")
-print(f"Umumiy summa:{total_sum} som")
